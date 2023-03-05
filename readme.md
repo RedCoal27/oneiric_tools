@@ -1,7 +1,7 @@
 ## Before anything
 
 This datapack is made by \_RedCoal\_ for the OneiricForge map.
-You can use it for your own map, but you had to credit us.
+You can use it for your own map, but you must credit us.
 
 ## What is this datapack
 
