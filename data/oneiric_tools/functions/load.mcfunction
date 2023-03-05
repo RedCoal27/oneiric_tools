@@ -5,7 +5,7 @@ function oneiric_tools:timestamp/constant
 
 scoreboard objectives add oneiric_var dummy
 
-forceload remove -30000000 74048
+
 forceload add -30000000 74048
 
 #help me command block
