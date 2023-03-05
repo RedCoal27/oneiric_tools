@@ -1,5 +1,3 @@
-
-
 #generate file from 0 to 63 to convert binary to base64 with minecraft command
 
 for i in range(0, 64):
