@@ -8,7 +8,6 @@ for i in range(0, 64):
     #convert i to binary
     binary = bin(i)[2:]
     #add each byte with this command : data modify storage oneiric_tools:head Base64.bin append value xb
-    #reverse byte order
     #fill with 0 to have 6 bytes
     for j in range(0, 6-len(binary)):
         file.write("data modify storage oneiric_tools:head Base64.bin append value 0b\n")
