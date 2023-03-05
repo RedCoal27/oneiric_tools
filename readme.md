@@ -15,3 +15,9 @@ This datapack add few random tools that can be used for minecraft map.
 - get the actual Skin Variant
 
 Note: once you got the player_head of a player, the data is stored in cache and doesn't update anymore until a reboot.
+
+
+## How to use it
+
+Use /function oneiric_tools:get/whateweryouwant
+the function "all" get all the data from the head
