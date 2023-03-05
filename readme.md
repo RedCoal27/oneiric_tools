@@ -11,6 +11,7 @@ This datapack add few random tools that can be used for minecraft map.
 
 - get the computers time's
 - get the UNIX timestamp from skulls
-- get Skin url,variant and Cape in a decimal list
+- get Skin url and Cape in a decimal list
+- get the actual Skin Variant
 
 Note: once you got the player_head of a player, the data is stored in cache and doesn't update anymore until a reboot.
