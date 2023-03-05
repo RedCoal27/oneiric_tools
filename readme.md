@@ -20,4 +20,5 @@ Note: once you got the player_head of a player, the data is stored in cache and 
 ## How to use it
 
 Use /function oneiric_tools:get/whateweryouwant
-the function "all" get all the data from the head
+
+The function "all" get all the data from the head
