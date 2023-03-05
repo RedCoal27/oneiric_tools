@@ -1,6 +1,6 @@
 ## Before anything
 
-This datapack is made by _RedCoal_ for the OneiricForge map.
+This datapack is made by \_RedCoal\_ for the OneiricForge map.
 You can use it for your own map, but you had to credit us.
 
 ## What is this datapack
