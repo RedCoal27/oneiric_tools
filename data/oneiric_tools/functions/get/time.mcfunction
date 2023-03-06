@@ -37,4 +37,9 @@ data modify storage oneiric_tools:time Time.Value set string storage oneiric_too
 function oneiric_tools:timestamp/get_int
 scoreboard players operation Second RTC = #var RTC
 
-
+#global time in seconde if needed
+scoreboard players operation #Time RTC = Hour RTC
+scoreboard players operation #Time RTC *= #60 RTC
+scoreboard players operation #Time RTC += Minute RTC
+scoreboard players operation #Time RTC *= #60 RTC
+scoreboard players operation #Time RTC += Second RTC
