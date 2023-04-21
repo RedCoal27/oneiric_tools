@@ -18,3 +18,26 @@ setblock -30000000 4 74063 command_block{auto:0b,Command:""}
 setblock -30000000 3 74062 yellow_shulker_box
 
 item replace block -30000000 3 74062 container.0 with air
+
+
+#string manupulation
+setblock -29999999 3 74063 minecraft:repeating_command_block[conditional=false,facing=north]{Command:"/execute if data storage oneiric_tools:string input[0] run function oneiric_tools:string/parsing/cmb/start",SuccessCount:0,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+setblock -29999999 3 74062 minecraft:chain_command_block[conditional=true,facing=north]{Command:"function oneiric_tools:string/parsing/cmb/next",SuccessCount:12,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+setblock -29999999 3 74061 minecraft:command_block[conditional=false,facing=south]{Command:"",SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b,auto:0b,conditionMet:0b,powered:0b}
+
+setblock -29999999 3 74060 minecraft:chain_command_block[conditional=false,facing=east]{Command:"enchant 0-0-0-0-1 minecraft:aqua_affinity",SuccessCount:0,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+
+setblock -29999998 3 74060 minecraft:chain_command_block[conditional=false,facing=south]{Command:"function oneiric_tools:string/parsing/cmb/get_length",SuccessCount:2,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+setblock -29999998 3 74061 minecraft:chain_command_block[conditional=false,facing=south]{Command:"data modify storage oneiric_tools:string output set string block -29999999 3 74061 LastOutput 91 114",SuccessCount:1,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+setblock -29999998 3 74062 minecraft:chain_command_block[conditional=false,facing=west]{Command:"",SuccessCount:5,TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+
+
+setblock -29999999 4 74063 oak_sign
+
+
+gamerule commandBlockOutput false
