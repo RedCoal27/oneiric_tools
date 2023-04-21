@@ -21,4 +21,4 @@ execute if score #matches oneiric_var matches 0 store success score #success one
 
 execute if score #success oneiric_var matches 1 run scoreboard players add #matches oneiric_var 1
 
-execute if data storage oneiric_tools:head data.out[0] unless score #matches oneiric_var matches 14.. run function oneiric_tools:timestamp/recursive_search
+execute if data storage oneiric_tools:head data.out[0] unless score #matches oneiric_var matches 14.. run function oneiric_tools:skull_data/timestamp/recursive_search
