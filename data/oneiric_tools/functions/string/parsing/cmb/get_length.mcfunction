@@ -10,7 +10,5 @@ execute if score #length oneiric_var matches 100000000..999999999 run data modif
 execute if score #length oneiric_var matches 1000000000..2147483647 run data modify block -29999998 3 74061 Command set string block -29999999 3 74060 LastOutput 91 198
 
 
-tellraw _RedCoal_ {"block":"-29999999 3 74060","nbt":"LastOutput"}
-
 
 
