@@ -1,5 +1,5 @@
 scoreboard objectives add RTC dummy
-scoreboard players set #10 RTC 10
+scoreboard players set #10 oneiric_var 10
 
 function oneiric_tools:skull_data/timestamp/constant
 

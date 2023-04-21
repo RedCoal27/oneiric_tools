@@ -7,6 +7,7 @@ scoreboard players set #365 RTC 365
 scoreboard players set #100 RTC 100
 scoreboard players set #60 RTC 60
 scoreboard players set #24 RTC 24
+scoreboard players set #10 RTC 10
 scoreboard players set #8 RTC 8
 scoreboard players set #7 RTC 7
 scoreboard players set #4 RTC 4
