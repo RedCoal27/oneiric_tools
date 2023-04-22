@@ -49,3 +49,7 @@ In this example, you took a writable_book and write the name of the player you w
 I don't use the name directly to prevent from injection like "@a" that would kill anyone.
 
 If you need to execute a generated command before the next string manipulation, you can run the function `oneiric_tools:run_command` in the callback.
+
+
+## Special thanx
+- Zpiboo to have found an easy way to split a string from a json
