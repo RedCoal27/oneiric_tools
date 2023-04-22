@@ -40,10 +40,11 @@ To start a string manipulation, you have to append a value in the storage oneiri
 Concatenation example:
 
 - Death note:
+
 ```
 /data modify storage oneiric_tools:string input append value {type:"concatenation",values:[{text:"kill @a[name='"},{text:'{"nbt":"SelectedItem.tag.pages[0]","entity":"@p"}',interpret:true},{text:"']"}],callback:"function oneiric_tools:run_command"}
 ```
 
 In this example, you took a writable_book and write the name of the player you want to kill and it will generate the command `kill @a[name='name']` and execute it.
 
-Note that the function run_command only execute 1 command a tick and is only for demonstration purposes. If you want to execute multiple command, you can use the callback and run yourself with multiple command block your command.
+If you need to execute a generated command before the next string manipulation, you can run the function `oneiric_tools:run_command` in the callback.
