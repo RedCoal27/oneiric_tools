@@ -46,5 +46,6 @@ Concatenation example:
 ```
 
 In this example, you took a writable_book and write the name of the player you want to kill and it will generate the command `kill @a[name='name']` and execute it.
+I don't use the name directly to prevent from injection like "@a" that would kill anyone.
 
 If you need to execute a generated command before the next string manipulation, you can run the function `oneiric_tools:run_command` in the callback.
