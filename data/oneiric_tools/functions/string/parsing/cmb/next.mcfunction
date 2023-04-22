@@ -2,7 +2,6 @@ execute unless data storage oneiric_tools:string input[0] run function oneiric_t
 
 # return 
 
-
 data modify storage oneiric_tools:string temp set from storage oneiric_tools:string input[0]
 data remove storage oneiric_tools:string input[0]
 

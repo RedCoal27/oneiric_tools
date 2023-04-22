@@ -3,4 +3,3 @@ setblock -29999999 3 74061 minecraft:chain_command_block[conditional=false,facin
 
 
 summon minecraft:armor_stand ~ ~ ~ {UUID:[I;0,0,0,0],CustomName:'{"text":""}'}
-summon minecraft:armor_stand ~ ~ ~ {UUID:[I;0,0,0,1],CustomName:'{"text":""}'}
