@@ -8,6 +8,7 @@ scoreboard objectives add oneiric_var dummy
 
 forceload add -30000000 74048
 
+fill -30000000 3 74063 -29999998 4 74059 air
 #help me command block
 setblock -30000000 3 74063 repeating_command_block{auto:1b,Command:"help me"}
 
@@ -29,7 +30,7 @@ setblock -29999999 3 74061 minecraft:command_block[conditional=false,facing=sout
 
 setblock -29999999 3 74060 minecraft:chain_command_block[conditional=false,facing=north]{Command:"function oneiric_tools:string/parsing/cmb/length_json",TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
 
-setblock -29999999 3 74059 minecraft:chain_command_block[conditional=false,facing=east]{Command:"enchant 0-0-0-0-0 minecraft:aqua_affinity",TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
+setblock -29999999 3 74059 minecraft:chain_command_block[conditional=false,facing=east]{Command:"enchant 4eeb080d-c17f-4b5a-9890-8191648e267e minecraft:aqua_affinity",TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
 
 
 setblock -29999998 3 74059 minecraft:chain_command_block[conditional=false,facing=south]{Command:"function oneiric_tools:string/parsing/cmb/get_length",TrackOutput:1b,UpdateLastExecution:0b,auto:1b,conditionMet:1b,powered:0b}
