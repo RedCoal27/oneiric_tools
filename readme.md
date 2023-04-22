@@ -40,8 +40,7 @@ To start a string manipulation, you have to append a value in the storage oneiri
 Concatenation example:
 
 - Death note:
-
-```json
+```
 /data modify storage oneiric_tools:string input append value {type:"concatenation",values:[{text:"kill @a[name='"},{text:'{"nbt":"SelectedItem.tag.pages[0]","entity":"@p"}',interpret:true},{text:"']"}],callback:"function oneiric_tools:run_command"}
 ```
 
